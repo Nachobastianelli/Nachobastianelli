@@ -6,7 +6,7 @@
 
 ###
 
-<h2 align="left">About me</h2>
+<h2 align="left">About me 🧑🏽</h2>
 
 ###
 
@@ -14,7 +14,7 @@
 
 ###
 
-<h2 align="left">I code with</h2>
+<h2 align="left">Tech stack</h2>
 
 ###
 
@@ -39,10 +39,16 @@
 </div>
 
 ###
-
-<h2 align="left">Contact me 🤗</h2>
-
 ###
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h2 align="center">🌍 Contact me 🤗</h2>
+
+
 
 <div align="center">
   <a href="https://www.linkedin.com/in/ignacio-bastianelli-0837092a2/" target="_blank">
@@ -72,3 +78,9 @@
 </div>
 
 ###
+
+<div align="center">
+  <img  src="https://github.com/user-attachments/assets/41834766-c084-4e92-95d6-c8e7e3aca3bc" width="200" alt="octocat" />
+</div>
+
+
