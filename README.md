@@ -1,3 +1,5 @@
+
+
 <h1 align="left">Hey 👋 What's up?</h1>
 
 ###
@@ -39,10 +41,7 @@
 </div>
 
 ###
-###
-<br>
-<br>
-<br>
+<hr>
 <br>
 <br>
 
@@ -79,8 +78,6 @@
 
 ###
 
-<div align="center">
-  <img  src="https://github.com/user-attachments/assets/41834766-c084-4e92-95d6-c8e7e3aca3bc" width="200" alt="octocat" />
-</div>
+
 
 
