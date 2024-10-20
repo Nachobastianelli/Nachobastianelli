@@ -12,11 +12,16 @@
 
 ###
 
-<p align="left">✨ Creating bugs since: 2022<br>💻 Currently working: As a freelancer on a project for BODEZ-inmobiliaria and on my ecommerce as a personal project. <br>🎯 Goals: Continue learning and get my first fulltime job. <br> 📚 Skills: Fullstack development with .NET, React, SQL Server, Tailwind CSS, and more. I enjoy building scalable and intuitive web apps from scratch.</p>
+<p align="left">
+  <strong>✨ Creating bugs since:</strong> 2022<br>
+  <strong>💻 Currently working:</strong> As a freelancer on a project for BODEZ-inmobiliaria and on my ecommerce as a personal project.<br>
+  <strong>🎯 Goals:</strong> Continue learning and get my first fulltime job.<br>
+  <strong>📚 Skills:</strong> Fullstack development with .NET, React, SQL Server, Tailwind CSS, and more. I enjoy building scalable and intuitive web apps from scratch.
+</p>
 
 ###
 
-<h2 align="left">Tech stack</h2>
+<h2 align="left">Tech stack 👩🏽‍💻</h2>
 
 ###
 
@@ -31,7 +36,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="tailwindcss logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
   <img width="12" />
@@ -44,8 +49,8 @@
 
 ## GitHub Stats 📊
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=nachobastianelli&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=nachobastianelli&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-streak-stats.herokuapp.com/?user=nachobastianelli&theme=nightowl&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=nachobastianelli&theme=nightowl&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ###
 
