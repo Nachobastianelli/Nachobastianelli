@@ -12,7 +12,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since: 2022<br>📚 I'm currently learning: .NET<br>🎯 Goals: Continue learning and get my first job.<br>🎲 Fun fact: Fueled by mate and code</p>
+<p align="left">✨ Creating bugs since: 2022<br>💻 Currently working: As a freelancer on a project for BODEZ-inmobiliaria and on my ecommerce as a personal project. <br>🎯 Goals: Continue learning and get my first fulltime job. <br> 📚 Skills: Fullstack development with .NET, React, SQL Server, Tailwind CSS, and more. I enjoy building scalable and intuitive web apps from scratch.</p>
 
 ###
 
