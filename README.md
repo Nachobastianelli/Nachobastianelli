@@ -16,7 +16,7 @@
   <strong>✨ Creating bugs since:</strong> 2022<br>
   <strong>💻 Currently working:</strong> As a freelancer on a project for BODEZ-inmobiliaria and on my ecommerce as a personal project.<br>
   <strong>🎯 Goals:</strong> Continue learning and get my first fulltime job.<br>
-  <strong>📚 Skills:</strong> Fullstack development with .NET, React, SQL Server, Tailwind CSS, and more. I enjoy building scalable and intuitive web apps from scratch.
+  <strong>📚 Skills:</strong> Fullstack development with .NET, React, SQL Server, Tailwind CSS, and more. I also enjoy building scalable and intuitive web apps from scratch.
 </p>
 
 ###
