@@ -1,6 +1,6 @@
 
 
-<h1 align="left">Hey 👋 What's up?</h1>
+<h1 align="left">Hey <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> What's up?</h1>
 
 ###
 
