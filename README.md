@@ -4,7 +4,9 @@
 
 ###
 
-<p align="left">My name is Ignacio Bastianelli and I'm a fullstack web developer, from Argentina</p>
+I'm **```Ignacio Bastianelli```**, a fullstack web developer from Argentina 🇦🇷. I'm passionate about building impactful web applications that solve real-world problems and provide exceptional user experiences.
+
+
 
 ###
 
