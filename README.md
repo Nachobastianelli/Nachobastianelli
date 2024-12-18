@@ -53,6 +53,19 @@ I'm **```Ignacio Bastianelli```**, a fullstack web developer from Argentina 🇦
 
 ###
 
+<h2 align="left">Currently learning 📔✏</h2>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="40" alt="sql server logo"/>
+</div>
+
+###
+
+
 ## GitHub Stats 📊
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=nachobastianelli&theme=nightowl&hide_border=false)<br/>
