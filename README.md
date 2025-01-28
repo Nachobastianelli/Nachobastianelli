@@ -16,14 +16,14 @@ I'm **```Ignacio Bastianelli```**, a fullstack web developer from Argentina 🇦
 
 <p align="left">
   <strong>✨ Creating bugs since:</strong> 2022<br><br>
-  <strong>💻 Currently working:</strong> As a freelancer on a project for BODEZ-inmobiliaria and on my ecommerce as a personal project.<br><br>
-  <strong>🎯 Goals:</strong> Continue learning and get my first fulltime job.<br><br>
-  <strong>📚 Skills:</strong> Fullstack development with .NET, React, SQL Server, Tailwind CSS, and more. I also enjoy building scalable and intuitive web apps from scratch.
+  <strong>💻 Currently working:</strong> At NETIZAR as a fullstack developer and as a freelancer on a project for BODEZ Inmobiliaria.<br><br>
+  <strong>🎯 Goals:</strong> Continue learning 😁<br><br>
+  <strong>📚 Skills:</strong> Fullstack development with Node, React, MySQL, Express, Tailwind CSS, and more. I also enjoy building scalable and intuitive web apps from scratch.
 </p>
 
 ###
 
-<h2 align="left">Tech stack 👩🏽‍💻</h2>
+<h2 align="left">Tech stack 🧰</h2>
 
 ###
 
@@ -48,19 +48,29 @@ I'm **```Ignacio Bastianelli```**, a fullstack web developer from Argentina 🇦
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" height="40" alt="sql server logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" height="40" alt="git logo"  />
+  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="40" alt="sql server logo"/>
 </div>
 
 ###
 
-<h2 align="left">Currently learning 📔✏</h2>
+<h2 align="left">My work stack 💼</h2>
 
 ###
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="git logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="node logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="40" alt="sql server logo"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="40" alt="MySql logo"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+<img width="12" />
+  <img src='https://img.icons8.com/?size=100&id=PZQVBAxaueDJ&format=png&color=000000' height="40" alt="Express logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  
 </div>
 
 ###
