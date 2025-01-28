@@ -16,7 +16,7 @@ I'm **```Ignacio Bastianelli```**, a fullstack web developer from Argentina 🇦
 
 <p align="left">
   <strong>✨ Creating bugs since:</strong> 2022<br><br>
-  <strong>💻 Currently working:</strong> At NETIZAR as a fullstack developer and as a freelancer on a project for BODEZ Inmobiliaria.<br><br>
+  <strong>💻 Currently working:</strong> At NETIZAR S.A as a fullstack developer and as a freelancer on a project for BODEZ Inmobiliaria.<br><br>
   <strong>🎯 Goals:</strong> Continue learning 😁<br><br>
   <strong>📚 Skills:</strong> Fullstack development with Node, React, MySQL, Express, Tailwind CSS, and more. I also enjoy building scalable and intuitive web apps from scratch.
 </p>
