@@ -16,7 +16,7 @@ I'm **```Ignacio Bastianelli```**, a fullstack web developer from Argentina 🇦
 
 <p align="left">
   <strong>✨ Creating bugs since:</strong> 2022<br><br>
-  <strong>💻 Currently working:</strong> At NETIZAR S.A as a fullstack developer and as a freelancer on a project for BODEZ Inmobiliaria.<br><br>
+  <strong>💻 Currently working:</strong> Software developer working on the design, development, and maintenance of an ERP system for NETIZAR S.A.<br><br>
   <strong>🎯 Goals:</strong>  
 <ul>
   <li>To continue improving my English skills.</li>
