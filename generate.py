@@ -1,5 +1,5 @@
 """Generates the pixel-RPG SVG scenes for the GitHub profile README.
-Usage: python generate.py <path-to-pixel-font.woff2>
+Usage: python generate.py font/PressStart2P.woff2  (Press Start 2P, SIL Open Font License)
 Outputs into ./assets/
 """
 import base64, os, random, sys
