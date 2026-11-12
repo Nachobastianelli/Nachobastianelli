@@ -3,47 +3,61 @@
 </p>
 
 <p align="center">
-  <img src="./assets/status.svg" width="100%" alt="Character status: Ignacio, Fullstack Dev at NETIZAR S.A."/>
+  <a href="https://ignaciobastianelliportfolio.netlify.app/"><img src="./assets/btn-portfolio.svg" width="200" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/ignacio-bastianelli-0837092a2/"><img src="./assets/btn-linkedin.svg" width="200" alt="LinkedIn"/></a>
+  <a href="mailto:nachobastianelli2003@gmail.com"><img src="./assets/btn-email.svg" width="200" alt="Email"/></a>
 </p>
 
 <p align="center">
-  <img src="./assets/title-quests.svg" width="100%" alt="Current quests"/>
+  <img src="./assets/status.svg" width="100%" alt="Character status: Ignacio, Fullstack Dev, University Technician in Programming"/>
+</p>
+
+Fullstack developer from Argentina and **University Technician in Programming**. I design, build and maintain an ERP system at **NETIZAR S.A.** with React, Node.js, TypeScript and MySQL, and I like turning messy business processes into software that's simple to use.
+
+I'm also a **Claude expert** 🧙: I use Claude and Claude Code every day to plan features, write and refactor code, review changes and squash bugs faster, without giving up code quality. English level: **B2**.
+
+<p align="center">
+  <img src="./assets/title-achievements.svg" width="100%" alt="Trophy room"/>
+  <img src="./assets/achievements.svg" width="100%" alt="Achievements: Graduated, English B2, Pro Dev, Claude Expert, Coding since 2022"/>
+</p>
+
+<p align="center">
+  <img src="./assets/title-quests.svg" width="100%" alt="Story so far"/>
   <img src="./assets/quests.svg" width="100%" alt="Quest log"/>
 </p>
 
+<details>
+<summary><b>NETIZAR S.A.</b> · Software Developer · <i>now</i></summary>
+<br/>
+
+- Design, development and maintenance of the company's ERP system.
+- Fullstack work with TypeScript, Node.js, Express, React and MySQL.
+- AI-assisted workflow with Claude Code for planning, refactoring and code review.
+
+</details>
+
+<details>
+<summary><b>University Technician in Programming</b> · Graduated 🎓</summary>
+<br/>
+
+- Algorithms, data structures, OOP and relational databases.
+
+</details>
+
+<br/>
+
 <p align="center">
-  <img src="./assets/title-inventory.svg" width="100%" alt="Inventory"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,tailwind,nodejs,express&theme=dark" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,mysql,mongodb,git,github,figma,vscode&theme=dark" />
+  <img src="./assets/skilltree.svg" width="100%" alt="Skill tree: React, TypeScript, JavaScript, Tailwind, Node.js, Express, C#/.NET, MySQL, MongoDB, Claude, Claude Code, Git, Figma"/>
 </p>
 
 <p align="center">
-  <img src="./assets/title-equipped.svg" width="100%" alt="Equipped at work"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,express,react,mysql,js&theme=dark&perline=6" />
-</p>
-
-<p align="center">
-  <img src="./assets/title-log.svg" width="100%" alt="Adventure log"/>
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=nachobastianelli&theme=tokyonight&hide_border=true&background=120b3a&ring=c084fc&fire=ffd75e&currStreakLabel=ffd75e&sideLabels=c084fc&dates=9fb4ff" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="./assets/title-dungeon.svg" width="100%" alt="Contribution dungeon"/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nachobastianelli/Nachobastianelli/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nachobastianelli/Nachobastianelli/output/github-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/Nachobastianelli/Nachobastianelli/output/github-snake-dark.svg" width="100%" />
-  </picture>
+  <img src="./assets/title-battle.svg" width="100%" alt="Boss battle"/>
+  <img src="./assets/battle.svg" width="100%" alt="Ignacio summons Claude Code and squashes a production bug"/>
 </p>
 
 <p align="center">
   <img src="./assets/title-party.svg" width="100%" alt="Join my party"/>
   <br/>
-  <a href="https://ignaciobastianelliportfolio.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-7F3FBF?style=for-the-badge&logo=firefoxbrowser&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/ignacio-bastianelli-0837092a2/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:nachobastianelli2003@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://discord.com/users/551307284685389840"><img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white"/></a>
@@ -53,8 +67,4 @@
 
 <p align="center">
   <img src="./assets/dialog.svg" width="100%" alt="Thanks for stopping by, traveler!"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nachobastianelli&style=pixel&color=7F3FBF&label=TRAVELERS+VISITED" />
 </p>

@@ -178,15 +178,15 @@ def status():
     b.append(t(125, 350, "since 2022", 10, "#c9bfff", "middle"))
     # info
     x0 = 250
-    rows = [("NAME", "Ignacio"), ("CLASS", "Fullstack Dev"), ("GUILD", "NETIZAR S.A."),
-            ("QUEST", "ERP System"), ("HOME", "Argentina")]
+    rows = [("NAME", "Ignacio"), ("CLASS", "Fullstack Dev"), ("TITLE", "Univ. Technician"),
+            ("GUILD", "NETIZAR S.A."), ("QUEST", "ERP System"), ("LANG", "ES / EN B2"), ("HOME", "Argentina")]
     for i, (k, v) in enumerate(rows):
-        b.append(t(x0, 110 + i * 30, k, 12, "#9fb4ff"))
-        b.append(t(x0 + 100, 110 + i * 30, v, 12))
+        b.append(t(x0, 104 + i * 24, k, 12, "#9fb4ff"))
+        b.append(t(x0 + 100, 104 + i * 24, v, 12, "#ffd75e" if k == "TITLE" else "#ffffff"))
     # bars
-    bars = [("HP", "#4ade80", 1.0, "999/999"), ("MP", "#60a5fa", .85, "COFFEE"), ("EXP", "#ffd75e", .72, "NEXT: ENG")]
+    bars = [("HP", "#4ade80", 1.0, "999/999"), ("MP", "#60a5fa", .85, "COFFEE"), ("EXP", "#ffd75e", .72, "LV UP SOON")]
     for i, (k, col, pct, lbl) in enumerate(bars):
-        y = 275 + i * 34
+        y = 280 + i * 32
         b.append(t(x0, y + 12, k, 12, "#9fb4ff"))
         b.append(f'<rect class="crisp" x="{x0+55}" y="{y}" width="260" height="16" fill="#0a0820" stroke="#f4f0ff" stroke-width="2"/>')
         b.append(f'<rect class="crisp fill" x="{x0+58}" y="{y+3}" width="{int(254*pct)}" height="10" fill="{col}" '
@@ -196,13 +196,13 @@ def status():
     x1 = 660
     b.append(t(x1, 100, "ATTRIBUTES", 12, "#ffd75e"))
     attrs = [("STR", "React", 9), ("INT", "Node.js", 9), ("DEX", "TypeScript", 8),
-             ("VIT", "MySQL", 8), ("AGI", "Tailwind", 8), ("WIS", "C# / .NET", 7), ("LUK", "Debugging", 10)]
+             ("VIT", "MySQL", 8), ("AGI", "Tailwind", 8), ("WIS", "C# / .NET", 7), ("MAG", "Claude AI", 10), ("LUK", "Debugging", 10)]
     for i, (k, v, n) in enumerate(attrs):
-        y = 130 + i * 34
-        b.append(t(x1, y, k, 11, "#9fb4ff"))
-        b.append(t(x1 + 50, y, v, 10))
+        y = 124 + i * 31
+        b.append(t(x1, y, k, 11, "#ffd75e" if k == "MAG" else "#9fb4ff"))
+        b.append(t(x1 + 50, y, v, 10, "#ffb070" if k == "MAG" else "#ffffff"))
         for j in range(10):
-            col = "#c084fc" if j < n else "#2a2160"
+            col = ("#ff9a3c" if k == "MAG" else "#c084fc") if j < n else "#2a2160"
             b.append(f'<rect class="crisp pip" x="{x1+50+j*13}" y="{y+6}" width="10" height="8" fill="{col}" '
                      f'style="animation-delay:{(i*10+j)*0.03:.2f}s"/>')
     css = """
@@ -217,24 +217,25 @@ def status():
 
 # ---------- 3. QUEST LOG ----------
 def quests():
-    W, H = 1000, 290
+    W, H = 1000, 334
     b = [WIN_GRAD, window(8, 8, W - 16, H - 16)]
     b.append(t(40, 52, "QUEST LOG", 16, "#ffd75e"))
     b.append(f'<rect class="crisp" x="40" y="64" width="{W-80}" height="3" fill="#7a6cff" opacity=".7"/>')
-    qs = [("Join a guild as Software Developer", "CLEAR!", "#4ade80"),
-          ("Level up English to fluent", "IN PROGRESS", "#ffd75e"),
-          ("Associate's in Software Development", "IN PROGRESS", "#ffd75e"),
-          ("Information Systems Engineering", "LOCKED", "#f87171")]
+    qs = [("Graduate: Univ. Technician in Programming", "CLEAR!", "#4ade80"),
+          ("Reach English level B2", "CLEAR!", "#4ade80"),
+          ("Join a guild as Software Developer", "CLEAR!", "#4ade80"),
+          ("Build & maintain the NETIZAR ERP", "ACTIVE", "#ffd75e"),
+          ("Keep leveling up as a Fullstack Dev", "ENDLESS", "#c084fc")]
     for i, (q, st, col) in enumerate(qs):
         y = 110 + i * 44
         mark = "[X]" if st == "CLEAR!" else "[ ]"
         b.append(t(80, y, mark, 13, col))
         b.append(t(140, y, q, 13))
-        b.append(t(W - 50, y, st, 11, col, "end"))
+        b.append(t(W - 50, y, st, 11, col, "end", 'class="blink"' if st == "ACTIVE" else ""))
     b.append('<g class="cursor"><polygon class="crisp" points="48,98 62,105 48,112" fill="#ffffff"/></g>')
     css = """
-@keyframes cur { 0%,24% {transform:translateY(0)} 25%,49% {transform:translateY(44px)} 50%,74% {transform:translateY(88px)} 75%,100% {transform:translateY(132px)} }
-.cursor { animation: cur 4s steps(1) infinite; }
+@keyframes cur { 0%,19% {transform:translateY(0)} 20%,39% {transform:translateY(44px)} 40%,59% {transform:translateY(88px)} 60%,79% {transform:translateY(132px)} 80%,100% {transform:translateY(176px)} }
+.cursor { animation: cur 5s steps(1) infinite; }
 """
     save("quests.svg", svg(W, H, "".join(b), css))
 
@@ -277,8 +278,197 @@ def title(slug, text):
     save(f"title-{slug}.svg", svg(W, H, "".join(b)))
 
 
-hero(); status(); quests(); dialog()
-for slug, txt in [("inventory", "INVENTORY"), ("equipped", "EQUIPPED AT WORK"),
-                  ("log", "ADVENTURE LOG"), ("dungeon", "CONTRIBUTION DUNGEON"),
-                  ("party", "JOIN MY PARTY"), ("quests", "CURRENT QUESTS")]:
+# ---------- 6. ACHIEVEMENTS ----------
+CAP = [".....KK.....", "...KKCCKK...", ".KKCCCCCCKK.", "KCCCCLLCCCCK", ".KKCCCCCCKKY",
+       "...KKKKKK.KY", "...KCCCCK.KY", "...KCCCCK.YY", "...KKKKKK..."]
+ORB = ["...KKKK...", ".KKMMWWKK.", ".KMMMMWMK.", "KMMMMMMMMK", "KMmMMMMMMK",
+       "KmmMMMMMmK", ".KmmmmmmK.", "..KKKKKK..", ".KYYYYYYK.", "KKKKKKKKKK"]
+BUBBLE = [".KKKKKKKK.", "KWWWWWWWWK", "KWWWWWWWWK", "KWWWWWWWWK", "KWWWWWWWWK",
+          ".KKWKKKKK.", "..KWK.....", "..KK......"]
+CASE = ["...KKKK...", "...K..K...", "KKKKKKKKKK", "KBBBBBBBBK", "KBBBBBBBBK",
+        "KbbbYYbbbK", "KBBBBBBBBK", "KKKKKKKKKK"]
+TROPHY = ["KKKKKKKKKK", "KYYYYYYWYK", "KYYYYYYWYK", ".KYYYYWYK.", "..KYYYYK..",
+          "...KYYK...", "....KK....", "...KOOK...", "..KOOOOK..", "..KKKKKK.."]
+ICON_PAL = {"K": "#0a0820", "C": "#3a3a5a", "L": "#7a7aa0", "Y": "#ffd75e", "W": "#ffffff",
+            "B": "#b0743a", "b": "#7a4a20", "O": "#c08a20", "M": "#ff9a3c", "m": "#c2410c"}
+
+
+def achievements():
+    W, H = 1000, 330
+    b = [WIN_GRAD, window(8, 8, W - 16, H - 16)]
+    b.append(t(40, 52, "ACHIEVEMENTS UNLOCKED  5/5", 16, "#ffd75e"))
+    b.append(f'<rect class="crisp" x="40" y="64" width="{W-80}" height="3" fill="#7a6cff" opacity=".7"/>')
+    cards = [(CAP, "GRADUATED!", "Univ. Technician", "in Programming"),
+             (BUBBLE, "ENGLISH B2", "Language skill", "unlocked"),
+             (CASE, "PRO DEV", "Software Dev", "@ NETIZAR S.A."),
+             (ORB, "CLAUDE EXPERT", "AI-powered", "developer"),
+             (TROPHY, "SINCE 2022", "Writing code", "and counting")]
+    for i, (icon, ttl, s1, s2) in enumerate(cards):
+        x, y, w, h = 32 + i * 188, 86, 176, 210
+        cx = x + w // 2
+        b.append(f'<g class="card" style="animation-delay:{i*0.35:.2f}s">')
+        b.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="8" fill="#0a0820" fill-opacity=".55" stroke="#ffd75e" stroke-width="3"/>')
+        b.append(f'<circle cx="{cx}" cy="{y+62}" r="44" fill="#ffd75e" opacity=".12" class="glow" style="animation-delay:{i*0.4:.1f}s"/>')
+        b.append(sprite(icon, ICON_PAL, cx - len(icon[0]) * 3, y + 62 - len(icon) * 3, 6))
+        if icon is BUBBLE:
+            b.append(f'<text x="{cx}" y="{y+55}" font-size="14" fill="#0a0820" text-anchor="middle">B2</text>')
+        b.append(t(cx, y + 138, ttl, 12, "#ff9a3c" if icon is ORB else "#ffd75e", "middle"))
+        b.append(t(cx, y + 164, s1, 10, "#ffffff", "middle"))
+        b.append(t(cx, y + 182, s2, 10, "#c9bfff", "middle"))
+        for sx, sy, d in [(x + 22, y + 24, 0), (x + w - 28, y + 40, .5), (x + w - 36, y + 100, 1)]:
+            b.append(f'<g class="spark" style="animation-delay:{d+i*0.2:.1f}s"><rect class="crisp" x="{sx}" y="{sy-6}" width="3" height="15" fill="#fff"/>'
+                     f'<rect class="crisp" x="{sx-6}" y="{sy}" width="15" height="3" fill="#fff"/></g>')
+        b.append("</g>")
+    css = """
+@keyframes cardin { 0% {opacity:0} 100% {opacity:1} }
+.card { animation: cardin .3s steps(3) both; }
+@keyframes spark { 0%,70%,100% {opacity:0} 80%,90% {opacity:1} }
+.spark { animation: spark 2s steps(1) infinite; }
+@keyframes glow { 0%,100% {opacity:.08} 50% {opacity:.3} }
+.glow { animation: glow 2s steps(4) infinite; }
+"""
+    save("achievements.svg", svg(W, H, "".join(b), css))
+
+
+# ---------- 7. BOSS BATTLE ----------
+BUG = [
+    "..K..........K..", "...K........K...", "....KKKKKKKK....", "...KRRRRRRRRK...",
+    "..KRRYYRRYYRRK..", "..KRRYKRRYKRRK..", ".KRRRRRRRRRRRRK.", ".KRrRRWRRWRRrRK.",
+    "KLKRrRRRRRRrRKLK", "K.KRRrrrrrrRRK.K", "KLKRRRRRRRRRRKLK", "...KRrRRRRrRK...",
+    "..KLK.KKKK.KLK..", ".KK..........KK.",
+]
+BUG_PAL = {"K": "#1a1020", "R": "#e0485e", "r": "#8a2030", "Y": "#ffe680", "W": "#ffffff", "L": "#3a1020"}
+
+
+def battle():
+    W, H = 1000, 420
+    b = ['<defs><linearGradient id="arena" x1="0" y1="0" x2="0" y2="1">'
+         '<stop offset="0" stop-color="#1a0b2e"/><stop offset=".6" stop-color="#3b1450"/><stop offset="1" stop-color="#5a1a4a"/></linearGradient>'
+         '<linearGradient id="win" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2a9a"/><stop offset="1" stop-color="#120b3a"/></linearGradient></defs>',
+         f'<rect width="{W}" height="{H}" rx="12" fill="url(#arena)"/>']
+    # floor tiles
+    for r in range(5):
+        y = 220 + r * 14
+        for c in range(0, W, 40):
+            col = "#2a1040" if (c // 40 + r) % 2 else "#341650"
+            b.append(f'<rect class="crisp" x="{c}" y="{y}" width="40" height="14" fill="{col}"/>')
+    # background code-rain columns
+    for i in range(18):
+        x = 30 + i * 55
+        b.append(f'<text x="{x}" y="0" font-size="10" fill="#7a3fbf" opacity=".35" class="rain" '
+                 f'style="animation-delay:-{random.uniform(0,6):.1f}s;animation-duration:{random.uniform(5,9):.1f}s">'
+                 f'{random.choice(["0", "1", "{", "}", ";", "=>", "()"])}</text>')
+    # nameplates
+    def plate(x, y, name, hp_cls):
+        return (f'<rect x="{x}" y="{y}" width="300" height="56" rx="6" fill="#0a0820" fill-opacity=".8" stroke="#f4f0ff" stroke-width="3"/>'
+                + t(x + 14, y + 22, name, 12, "#ffd75e")
+                + t(x + 14, y + 44, "HP", 10, "#9fb4ff")
+                + f'<rect class="crisp" x="{x+50}" y="{y+34}" width="234" height="12" fill="#2a2160"/>'
+                + f'<rect class="crisp {hp_cls}" x="{x+50}" y="{y+34}" width="234" height="12" fill="#4ade80"/>')
+    b.append(plate(30, 24, "IGNACIO  LV 04", "hphero"))
+    b.append(plate(W - 330, 24, "PROD BUG  LV 99", "hpboss"))
+    # fighters
+    b.append(f'<g class="dash">{sprite(HERO, HERO_PAL, 170, 110, 6, "bob")}</g>')
+    b.append(f'<g class="boss"><g class="shake">{sprite(BUG, BUG_PAL, 690, 100, 9, "bob")}</g></g>')
+    # slash + flash + damage
+    b.append('<g class="slash">'
+             + "".join(f'<rect class="crisp" x="{700+k*14}" y="{210-k*14}" width="16" height="16" fill="#ffffff"/>' for k in range(8))
+             + "".join(f'<rect class="crisp" x="{700+k*14}" y="{230-k*14}" width="10" height="10" fill="#c084fc"/>' for k in range(8))
+             + '</g>')
+    b.append(f'<rect width="{W}" height="{H}" rx="12" fill="#ffffff" class="flash"/>')
+    b.append(f'<g class="dmg">{t(760, 190, "-9999", 28, "#ffd75e", "middle")}</g>')
+    b.append(f'<g class="victory">{t(W//2, 170, "VICTORY!", 40, "#ffd75e", "middle")}{t(W//2, 205, "+500 EXP  *  +1 CLEAN DEPLOY", 12, "#ffffff", "middle")}</g>')
+    # battle text window
+    b.append('<rect x="20" y="304" width="960" height="100" rx="10" fill="url(#win)" stroke="#0a0820" stroke-width="8"/>'
+             '<rect x="20" y="304" width="960" height="100" rx="10" fill="none" stroke="#f4f0ff" stroke-width="4"/>')
+    msgs = ["A wild PROD BUG appeared!", "Ignacio summoned CLAUDE CODE!", "CRITICAL HIT! The bug was squashed!"]
+    for i, m in enumerate(msgs):
+        b.append(f'<g class="msg msg{i}">{t(50, 362, m, 16)}</g>')
+    b.append('<polygon class="blink crisp" points="940,380 960,380 950,392" fill="#ffffff"/>')
+    css = """
+.dash, .boss, .shake, .slash, .flash, .dmg, .victory, .msg, .hpboss { animation-duration: 6s; animation-iteration-count: infinite; animation-timing-function: steps(1); }
+@keyframes dash { 0%,30% {transform:translateX(0)} 33% {transform:translateX(200px)} 36%,44% {transform:translateX(420px)} 47% {transform:translateX(200px)} 50%,100% {transform:translateX(0)} }
+.dash { animation-name: dash; }
+@keyframes slash { 0%,37% {opacity:0} 38%,44% {opacity:1} 45%,100% {opacity:0} }
+.slash { animation-name: slash; }
+@keyframes flash { 0%,38% {opacity:0} 39% {opacity:.7} 41% {opacity:0} 42% {opacity:.4} 43%,100% {opacity:0} }
+.flash { animation-name: flash; opacity:0; }
+@keyframes shake { 0%,39% {transform:translateX(0)} 40% {transform:translateX(-10px)} 42% {transform:translateX(10px)} 44% {transform:translateX(-8px)} 46% {transform:translateX(8px)} 48%,100% {transform:translateX(0)} }
+.shake { animation-name: shake; }
+@keyframes boss { 0%,58% {opacity:1} 60% {opacity:0} 62% {opacity:1} 64% {opacity:0} 66% {opacity:.5} 68%,96% {opacity:0} 98%,100% {opacity:1} }
+.boss { animation-name: boss; }
+@keyframes dmg { 0%,39% {opacity:0;transform:translateY(0)} 40% {opacity:1;transform:translateY(0)} 46% {opacity:1;transform:translateY(-30px)} 56%,100% {opacity:0;transform:translateY(-40px)} }
+.dmg { animation-name: dmg; animation-timing-function: steps(4); }
+@keyframes hpboss { 0%,40% {transform:scaleX(1)} 52%,100% {transform:scaleX(0)} }
+.hpboss { transform-box: fill-box; transform-origin: left; animation-name: hpboss; animation-timing-function: steps(12); }
+@keyframes victory { 0%,69% {opacity:0} 70%,96% {opacity:1} 97%,100% {opacity:0} }
+.victory { animation-name: victory; }
+@keyframes msg0 { 0%,32% {opacity:1} 33%,100% {opacity:0} }
+@keyframes msg1 { 0%,32% {opacity:0} 33%,54% {opacity:1} 55%,100% {opacity:0} }
+@keyframes msg2 { 0%,54% {opacity:0} 55%,100% {opacity:1} }
+.msg0 { animation-name: msg0; } .msg1 { animation-name: msg1; } .msg2 { animation-name: msg2; }
+@keyframes rain { 0% {transform:translateY(-20px)} 100% {transform:translateY(320px)} }
+.rain { animation: rain 7s linear infinite; }
+.bob > g { animation: bob 1s steps(1) infinite; }
+"""
+    save("battle.svg", svg(W, H, "".join(b), css))
+
+
+# ---------- 8. SKILL TREE ----------
+def skilltree():
+    W = 1000
+    work = {"React", "TypeScript", "JavaScript", "Node.js", "Express", "MySQL"}
+    tree = [("FRONTEND", "#c084fc", ["React", "TypeScript", "JavaScript", "Tailwind CSS", "HTML + CSS"]),
+            ("BACKEND", "#60a5fa", ["Node.js", "Express", "C# / .NET"]),
+            ("DATA VAULT", "#4ade80", ["MySQL", "MongoDB"]),
+            ("AI MAGIC", "#ff9a3c", ["Claude", "Claude Code", "Prompt Engineering", "AI-assisted Dev"]),
+            ("TOOLS", "#9fb4ff", ["Git", "GitHub", "Figma", "VS Code"])]
+    H = 100 + len(tree) * 54 + 50
+    b = [WIN_GRAD, window(8, 8, W - 16, H - 16)]
+    b.append(t(40, 52, "SKILL TREE", 16, "#ffd75e"))
+    b.append(f'<rect class="crisp" x="40" y="64" width="{W-80}" height="3" fill="#7a6cff" opacity=".7"/>')
+    k = 0
+    for r, (cat, col, chips) in enumerate(tree):
+        y = 96 + r * 54
+        b.append(t(40, y + 22, cat, 11, col))
+        b.append(f'<rect class="crisp" x="40" y="{y+30}" width="{len(cat)*11}" height="2" fill="{col}" opacity=".6"/>')
+        x = 200
+        for c in chips:
+            star = c in work
+            label = ("* " if star else "") + c
+            w = len(label) * 11 + 28
+            glow = ' class="aiglow"' if cat == "AI MAGIC" else ""
+            b.append(f'<g class="chip" style="animation-delay:{k*0.06:.2f}s">')
+            b.append(f'<rect{glow} x="{x}" y="{y}" width="{w}" height="34" rx="4" fill="#0a0820" fill-opacity=".6" '
+                     f'stroke="{"#ffd75e" if star else col}" stroke-width="3"/>')
+            b.append(t(x + 14, y + 23, label, 11, "#ffd75e" if star else "#ffffff"))
+            b.append("</g>")
+            x += w + 12
+            k += 1
+    b.append(t(W - 40, H - 36, "* = equipped at work", 10, "#ffd75e", "end"))
+    css = """
+@keyframes chipin { 0% {opacity:0} 100% {opacity:1} }
+.chip { animation: chipin .2s steps(1) both; }
+@keyframes aiglow { 0%,100% {stroke:#ff9a3c} 50% {stroke:#ffe0b0} }
+.aiglow { animation: aiglow 1.4s steps(4) infinite; }
+"""
+    save("skilltree.svg", svg(W, H, "".join(b), css))
+
+
+# ---------- 9. PIXEL LINK BUTTONS ----------
+def button(slug, label, col):
+    W, H = 240, 64
+    b = [f'<rect x="6" y="6" width="{W-12}" height="{H-12}" fill="#120b3a" stroke="#0a0820" stroke-width="8"/>',
+         f'<rect x="6" y="6" width="{W-12}" height="{H-12}" fill="none" stroke="{col}" stroke-width="4"/>',
+         f'<rect class="crisp" x="10" y="{H-14}" width="{W-20}" height="4" fill="{col}" opacity=".35"/>',
+         t(30, 40, ">", 14, col, extra='class="blink"'),
+         t(W // 2 + 10, 40, label, 14, "#ffffff", "middle")]
+    save(f"btn-{slug}.svg", svg(W, H, "".join(b)))
+
+
+hero(); status(); quests(); dialog(); achievements(); battle(); skilltree()
+button("portfolio", "PORTFOLIO", "#ffd75e"); button("linkedin", "LINKEDIN", "#60a5fa")
+button("email", "EMAIL", "#f87171")
+for slug, txt in [("achievements", "TROPHY ROOM"), ("battle", "BOSS BATTLE"),
+                  ("party", "JOIN MY PARTY"), ("quests", "STORY SO FAR")]:
     title(slug, txt)
