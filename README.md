@@ -1,136 +1,119 @@
-
-
-<h1 align="left">Hey <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> What's up?</h1>
-
-###
-
-I'm **```Ignacio Bastianelli```**, a fullstack web developer from Argentina 🇦🇷. I'm passionate about building impactful web applications that solve real-world problems and provide exceptional user experiences.
-
-
-
-###
-
-<h2 align="left">About me 🧑🏽</h2>
-
-###
-
-<p align="left">
-  <strong>✨ Creating bugs since:</strong> 2022<br><br>
-  <strong>💻 Currently working:</strong> Software developer working on the design, development, and maintenance of an ERP system for NETIZAR S.A.<br><br>
-  <strong>🎯 Goals:</strong>  
-<ul>
-  <li>To continue improving my English skills.</li>
-  <li>To complete my associate's degree in Software Development.</li>
-  <li>To begin studying for my bachelor's degree in Information Systems Engineering.</li>
-</ul>
-
-  <strong>📚 Skills:</strong> Fullstack development with Node, React, MySQL, Express, Tailwind CSS, and more. I also enjoy building scalable and intuitive web apps from scratch.
+<!-- ============ HEADER ============ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:7F00FF,100:E100FF&height=230&section=header&text=Ignacio%20Bastianelli&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Fullstack%20Developer%20%F0%9F%87%A6%F0%9F%87%B7&descSize=20&descAlignY=56" width="100%"/>
 </p>
 
-###
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=C084FC&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Ignacio+%F0%9F%91%8B;Fullstack+Web+Developer+%F0%9F%92%BB;Building+an+ERP+at+NETIZAR+S.A.+%F0%9F%8F%A2;React+%E2%80%A2+Node+%E2%80%A2+TypeScript+%E2%80%A2+MySQL;Creating+bugs+since+2022+%F0%9F%90%9B" alt="Typing SVG" />
+  </a>
+</p>
 
-<h2 align="left">Tech stack 🧰</h2>
+<p align="center">
+  <a href="https://ignaciobastianelliportfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-7F00FF?style=for-the-badge&logo=firefoxbrowser&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/ignacio-bastianelli-0837092a2/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:nachobastianelli2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <img src="https://komarev.com/ghpvc/?username=nachobastianelli&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
+</p>
 
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://zh.opensuse.org/images/thumb/7/7d/Microsoft_.NET_logo.svg/456px-Microsoft_.NET_logo.svg.png" height="40" alt="dot-net logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="40" alt="MySql logo"/>
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB logo"  />
-  
-</div>
-
-###
-
-<h2 align="left">My work stack 💼</h2>
-
-###
-
-<div align="left">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="node logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="40" alt="MySql logo"/>
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-<img width="12" />
-  <img src='https://img.icons8.com/?size=100&id=PZQVBAxaueDJ&format=png&color=000000' height="40" alt="Express logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  
-</div>
-
-###
-
-
-## GitHub Stats 📊
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=nachobastianelli&theme=nightowl&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=nachobastianelli&theme=nightowl&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-###
-
-<hr>
-<br>
 <br>
 
-<h2 align="center">🌍 Contact me 🤗</h2>
+<!-- ============ ABOUT ============ -->
+<table>
+<tr>
+<td width="58%" valign="top">
 
+### 🧑🏽‍💻 About me
 
+```ts
+const ignacio = {
+  location:   "Argentina 🇦🇷",
+  role:       "Fullstack Web Developer",
+  currently:  "Designing & maintaining an ERP @ NETIZAR S.A.",
+  since:      2022,
+  stack:      ["React", "Node", "TypeScript", "MySQL", "Express"],
+  goals: [
+    "Keep leveling up my English 🗣️",
+    "Finish my Associate's in Software Development 🎓",
+    "Start Information Systems Engineering 🚀",
+  ],
+  funFact:    "I turn coffee into scalable web apps ☕",
+};
+```
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/ignacio-bastianelli-0837092a2/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="mailto:nachobastianelli2003@gmail.com?subject=Asunto&body=Hola, me gustaría hablar sobre..." target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  </a>
-  <a href="https://discord.com/users/551307284685389840" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  </a>
-  <a href="https://www.instagram.com/nachobastiaa/?hl=es" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
-  </a>
-  <a href="https://rargentinaprograma.slack.com/team/U067EJTAASJ" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Slack&logo=slack&label=&color=4049ff&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="slack logo"  />
-  </a>
-  <a href="https://ignaciobastianelliportfolio.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=dev.to&label=&color=222&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
-  </a>
-</div>
+</td>
+<td width="42%" align="center" valign="middle">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="coding gif"/>
+</td>
+</tr>
+</table>
 
-###
+<br>
 
+<!-- ============ TECH STACK ============ -->
+<h2 align="center">🧰 Tech Stack</h2>
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=nachobastianelli.nachobastianelli&left_color=black&right_color=purple"  />
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,tailwind,nodejs,express&theme=dark" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,mysql,mongodb,git,github,figma,vscode&theme=dark" />
+</p>
 
-###
+<h3 align="center">💼 What I use at work</h3>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+</p>
 
+<br>
 
+<!-- ============ STATS ============ -->
+<h2 align="center">📊 GitHub Stats</h2>
 
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nachobastianelli&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=C084FC&icon_color=E100FF&include_all_commits=true&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nachobastianelli&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=C084FC&langs_count=8" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=nachobastianelli&theme=tokyonight&hide_border=true&background=0d1117&ring=E100FF&fire=E100FF&currStreakLabel=C084FC" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nachobastianelli&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=C084FC&line=E100FF&point=ffffff&area=true&area_color=7F00FF" />
+</p>
+
+<!-- ============ SNAKE ============ -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nachobastianelli/nachobastianelli/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nachobastianelli/nachobastianelli/output/github-snake.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/nachobastianelli/nachobastianelli/output/github-snake-dark.svg" />
+  </picture>
+</p>
+
+<br>
+
+<!-- ============ CONTACT ============ -->
+<h2 align="center">🌍 Let's connect</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ignacio-bastianelli-0837092a2/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:nachobastianelli2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://discord.com/users/551307284685389840"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/></a>
+  <a href="https://www.instagram.com/nachobastiaa/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="https://rargentinaprograma.slack.com/team/U067EJTAASJ"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/></a>
+  <a href="https://ignaciobastianelliportfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-7F00FF?style=for-the-badge&logo=firefoxbrowser&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=C084FC&center=true&vCenter=true&width=500&lines=Thanks+for+stopping+by!+%E2%9C%A8;Let's+build+something+awesome+together+%F0%9F%9A%80" />
+</p>
+
+<!-- ============ FOOTER ============ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E100FF,50:7F00FF,100:0f0c29&height=120&section=footer" width="100%"/>
