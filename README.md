@@ -28,10 +28,6 @@
 <p align="center">
   <img src="./assets/title-log.svg" width="100%" alt="Adventure log"/>
   <br/>
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" />
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" />
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" />
-  <br/>
   <img src="https://streak-stats.demolab.com?user=nachobastianelli&theme=tokyonight&hide_border=true&background=120b3a&ring=c084fc&fire=ffd75e&currStreakLabel=ffd75e&sideLabels=c084fc&dates=9fb4ff" width="100%"/>
 </p>
 
